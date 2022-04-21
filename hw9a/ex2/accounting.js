@@ -4,7 +4,7 @@ module.exports = class Account {
       this.balance = 0;
     }
     credit(amount) {
-      this.balance += amount;
+      this.balance +=amount;
     }
     //get an account ddescription
     describe() {
